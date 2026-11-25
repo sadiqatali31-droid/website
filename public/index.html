@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Izzat Khatoon Online Shopping — Shop smart, live better.">
+<title>Izzat Khatoon | Online Shopping</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topline">✨ Quality • Style • Value &nbsp; | &nbsp; Welcome to Izzat Khatoon</div>
+<header class="header wrap">
+  <a class="brand" href="#"><span class="brand-mark">IK</span><span><b>IZZAT KHATOON</b><small>ONLINE SHOPPING</small></span></a>
+  <nav><a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <div class="head-actions"><button class="icon-btn" id="wishlistBtn">♡ <span id="wishCount">0</span></button><button class="icon-btn" id="cartBtn">Bag <span id="cartCount">0</span></button><a class="admin-link" href="admin.html">Admin</a></div>
+</header>
+<main>
+<section class="hero wrap" id="home">
+  <div class="hero-copy"><span class="eyebrow">THE NEW COLLECTION</span><h1>Elegance in<br><em>every detail.</em></h1><p>Discover beautiful finds, thoughtful gifts and everyday essentials — selected with care.</p><a class="gold-btn" href="#shop">SHOP COLLECTION</a><div class="hero-note">QUALITY &nbsp; · &nbsp; STYLE &nbsp; · &nbsp; VALUE</div></div>
+  <div class="hero-art"><div class="hero-circle">IK</div><div class="hero-tag">A little luxury<br>for every day</div><div class="spark">✦</div></div>
+</section>
+<section class="benefits wrap"><div>♧ <span><b>Carefully selected</b><small>Products picked with care</small></span></div><div>◇ <span><b>Easy ordering</b><small>Simple and secure checkout</small></span></div><div>♧ <span><b>Order updates</b><small>Track your order anytime</small></span></div><div>♡ <span><b>Customer care</b><small>We are here to help</small></span></div></section>
+<section class="section wrap" id="shop"><div class="section-head"><div><span class="eyebrow">CURATED FOR YOU</span><h2>Shop the collection</h2></div><div class="tools"><input id="search" placeholder="Search products..." aria-label="Search products"><select id="category"><option value="">All categories</option></select><select id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div></div><div class="product-grid" id="products"><p>Loading collection…</p></div></section>
+<section class="promo"><div class="wrap promo-inner"><span class="eyebrow">THE IK PROMISE</span><h2>Shop smart. Live better.</h2><p>Thoughtful style, friendly service and a shopping experience made simple.</p></div></section>
+<section class="section wrap" id="tracking"><div class="section-head"><div><span class="eyebrow">YOUR ORDER, YOUR WAY</span><h2>Track an order</h2></div></div><form class="track-form" id="trackForm"><input id="trackId" placeholder="Enter your order ID (e.g. IK12345678)" required><button class="gold-btn">TRACK ORDER</button></form><div id="trackResult" class="notice" aria-live="polite"></div></section>
+<section class="section wrap info-grid" id="about"><div><span class="eyebrow">OUR STORY</span><h2>Welcome to Izzat Khatoon</h2><p>We believe shopping should feel special and simple. Explore our curated collection and contact us whenever you need help.</p></div><div id="contact"><span class="eyebrow">WE'D LOVE TO HEAR FROM YOU</span><h2>Contact us</h2><p>WhatsApp: <a id="contactNumber" href="#">03302761265</a></p><p>For product questions and order support, message our team.</p></div></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="brand" href="#"><span class="brand-mark">IK</span><span><b>IZZAT KHATOON</b><small>ONLINE SHOPPING</small></span></a><span>© <span id="year"></span> Izzat Khatoon. All rights reserved.</span><a href="#tracking">Track order</a></div></footer>
+<div class="drawer-backdrop" id="backdrop"></div><aside class="drawer" id="cartDrawer"><div class="drawer-head"><h2>Your bag</h2><button class="close" id="closeCart">×</button></div><div id="cartItems"></div><div class="drawer-bottom"><div class="total-line"><span>Subtotal</span><b id="cartTotal">Rs. 0</b></div><button class="gold-btn full" id="checkoutBtn">PROCEED TO CHECKOUT</button></div></aside>
+<dialog id="checkoutDialog"><form id="checkoutForm" class="checkout-form"><button type="button" class="close dialog-close" id="closeCheckout">×</button><span class="eyebrow">ALMOST YOURS</span><h2>Delivery details</h2><label>Full name<input name="name" required maxlength="100"></label><label>Phone number<input name="phone" required maxlength="30" placeholder="03xx xxxxxxx"></label><label>Saved delivery address<select id="savedAddress"><option value="">Enter a new address</option></select></label><label>Delivery address<textarea name="address" required rows="3"></textarea></label><label class="save-address-label"><input type="checkbox" id="saveAddress"> Save this address in my address book on this device</label><label>Payment method<select name="paymentMethod" id="paymentMethod"><option value="Cash on Delivery">Cash on Delivery</option><option value="JazzCash">JazzCash</option></select></label><div id="jazzcashInfo" class="payment-info hidden"><b>JazzCash Manual Payment</b><p>Account name: <strong>Izzat Khatoon</strong><br>Account number: <strong>03302761265</strong></p><p>Send payment using your JazzCash app, then enter the transaction ID below. Your order remains pending until the store verifies payment.</p><label>JazzCash Transaction ID<input name="paymentReference" maxlength="100" placeholder="Enter transaction ID after payment"></label></div><div class="total-line"><span>Order total</span><b id="checkoutTotal">Rs. 0</b></div><button class="gold-btn full" type="submit">PLACE ORDER</button><p class="tiny">Your order is saved and WhatsApp will open with the order details. Press Send in WhatsApp to notify the store.</p><div id="checkoutMessage" class="notice"></div></form></dialog>
+<script src="app.js"></script>
+</body></html>

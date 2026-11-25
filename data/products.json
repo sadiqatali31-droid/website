@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p1",
+    "name": "Elegant Handbag",
+    "category": "Bags",
+    "price": 3499,
+    "stock": 12,
+    "description": "A timeless everyday handbag with a polished finish.",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=900"
+  },
+  {
+    "id": "p2",
+    "name": "Classic Ladies Watch",
+    "category": "Accessories",
+    "price": 4299,
+    "stock": 8,
+    "description": "A refined watch for everyday style.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=900"
+  },
+  {
+    "id": "p3",
+    "name": "Premium Sunglasses",
+    "category": "Accessories",
+    "price": 1999,
+    "stock": 20,
+    "description": "A stylish finishing touch for sunny days.",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=900"
+  },
+  {
+    "id": "p4",
+    "name": "Luxury Gift Set",
+    "category": "Gifts",
+    "price": 2799,
+    "stock": 10,
+    "description": "A thoughtful gift, beautifully presented.",
+    "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=900"
+  }
+]
